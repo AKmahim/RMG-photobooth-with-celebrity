@@ -191,8 +191,8 @@ function createQrCode(url) {
   document.getElementById("qr-code").innerHTML = "";
   const qr = new QRCode(document.getElementById("qr-code"), {
     text: url,
-    width: 150,
-    height: 150,
+    width: 250,
+    height: 250,
     colorDark : "#000000",
     colorLight : "#a9d8f6",
     correctLevel : QRCode.CorrectLevel.H
